@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html lang="ja"> 
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=1243px" />
+
+<meta name=”keywords” content=”aaaaa”>
+<meta name="description" content="aaaaa" />
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src=""></script>
+
+<link rel="stylesheet" type="text/css" href="../css/common.css" media="screen" />
+
+<title> SATOW </title>
+<link rel="shortcut icon" href="" />
+<link rel="apple-touch-icon" href="" />
+</head>
+
+<body>
+
+<div class="wrap_all">
+<div class="wrap_main">
+<header>
+	<h1><a href="index.html"><img class="header_img" src="../images/common/common/logo.png" alt="header_img"></a></h1>
+</header>
+
+<!--
+	<div id="page_back"></div>
+	<div id="block_01"></div>
+	<div id="block_02"></div>
+-->
+
+<div class="page_back_btn">
+	<input class="back_btn_img" type="image" src="../images/common/common/back.png" alt="back_button">
+</div>
+
+<!-- ===================shop detail area============= -->
+<section id="shop_detail_block">
+	<div class="shop_detail area03 overlay" id="photo_recieve" style="background-image: url(../images/shop_photo/ita.jpg);">
+		<div class="shop_info info_01" id="shop_info info_01" >
+			<h2 class="recieve_shop_name" id="s_name"><span id="name_value"></span>リカノール</h2>
+			<p class="recieve_shop_genre" id="s_genre"><span id="genre_value"></span>イタリアン</p>
+			<p class="recieve_shop_address" id="s_address"><span id="address_value"></span>新宿区西新宿1丁目1-22-2</p>
+		</div>
+
+		<div class="shop_status info_02" id="shop_status info_02">
+			<p class="text_01">ただ今の混雑度</p>
+			<div class="recieve_shop_percent" id="s_per">35<span id="percent_value"></span>%</div>
+			<div class="recieve_shop_status" id="s_status"><span id="status_value"></span>空きあり</div>
+			<div class="meter">
+				<div class="meter_01 meter_on"></div>
+				<div class="meter_02 meter_on"></div>
+				<div class="meter_03 meter_on"></div>
+				<div class="meter_04 meter_on"></div>
+			</div>
+		</div>
+	</div>
+		<!-- decorations -->
+		<div class="show_map">
+			<img src="../images/common/common/pin.png" alt="pin_icon">
+			<a href="#" target="_blank">SHOW MAP</a>
+		</div>
+		<div class="check_details">
+			<img src="../images/common/common/rupe.png" alt="rupe_icon">
+			<a href="#" target="_blank">CHECK DETAILS</a>
+		</div>
+</section>
+<!-- ==================shop detail area================ -->
+
+
+<!-- ====================link buttons================== -->
+<section id="bottom_links_block" class="bottom_margin_fix_1">
+	<div class="links area02">
+		<div class="search_btn link_01 search_location">
+			<input class="location_btn" type="image" src="../images/common/common/icon_location.png" alt="go_to_location">
+			</div>
+		<div class="search_btn link_02 search_detail">
+			<input class="detail_btn" type="image" src="../images/common/common/icon_detail.png" alt="go_to_detail">
+			</div>
+		<div class="search_btn link_03 search_random">
+			<input class="random_btn" type="image" src="../images/common/common/icon_random.png" alt="go_to_random">
+			</div>
+		<div class="search_btn link_04 search_nypage">
+			<input class="my_btn" type="image" src="../images/common/common/icon_mypage.png" alt="go_to_mypage">
+		</div>
+	</div>
+</section>
+<!-- ==================link buttons================= -->
+
+
+
+
+</div><!-- decorations end -->
+<footer><img src="../images/common/common/copyright.png" alt="copylight"></footer>
+</div><!-- wrap_all end -->
+
+
+
+
+<script type="text/javascript" charset="UTF-8">
+$(function(){
+
+ $('#block_01').load('blocks/top_searching_block.html');
+ $('#block_02').load('blocks/bottom_links_block_a.html');
+
+ });
+ 
+ </script>
+</body>
+</html>
